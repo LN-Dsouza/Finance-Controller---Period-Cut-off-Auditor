@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+pydantic-settings
+python-dotenv
+numpy
+langchain
+langgraph
+langchain-google-genai
+langchain-openai
+langsmith
+psycopg2-binary
+google-genai
+google-generativeai
+scikit-learn

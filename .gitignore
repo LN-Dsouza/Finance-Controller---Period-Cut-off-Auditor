@@ -1,0 +1,20 @@
+# Python virtual environments and caches
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment configurations and secrets
+.env
+
+# Local database file
+backend/data/database.db
+data/
+
+# Frontend dependencies and builds
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+
+# OS generated files
+.DS_Store
