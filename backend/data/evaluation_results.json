@@ -1,0 +1,1188 @@
+{
+  "run_id": "RUN-1788553569",
+  "cutoff_date": "2026-12-31 23:59:59",
+  "window_days": 7,
+  "timestamp": "2026-09-04T20:27:46.449681+00:00",
+  "throughput": {
+    "total_transactions": 75,
+    "processed": 75,
+    "ai_investigated": 40,
+    "auto_classified": 35,
+    "total_time_sec": 96.75,
+    "avg_latency_ms": 1290
+  },
+  "accuracy": {
+    "correct": 75,
+    "incorrect": 0,
+    "accuracy_rate": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "per_class": {
+      "BEFORE_CUTOFF": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 30
+      },
+      "AFTER_CUTOFF": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 30
+      },
+      "POTENTIAL_MISSTATEMENT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5
+      },
+      "UNRESOLVED": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5
+      },
+      "DATA_QUALITY_EXCEPTION": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5
+      }
+    }
+  },
+  "exception_handling": {
+    "resolved": 60,
+    "unresolved": 15,
+    "escalated": 15,
+    "potential_misstatements": 5
+  },
+  "safety": {
+    "unsupported_conclusions": 0,
+    "hallucinated_evidence": 0,
+    "incorrect_forced_classifications": 0,
+    "correctly_escalated_cases": 10
+  },
+  "details": [
+    {
+      "transaction_id": "TXN-A01",
+      "type": "goods_purchase",
+      "amount": 11500.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_BEFORE"
+      ],
+      "used_ai": false,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 5
+    },
+    {
+      "transaction_id": "TXN-A02",
+      "type": "goods_purchase",
+      "amount": 13000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_BEFORE"
+      ],
+      "used_ai": false,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-A03",
+      "type": "goods_purchase",
+      "amount": 14500.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_BEFORE"
+      ],
+      "used_ai": false,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-A04",
+      "type": "goods_purchase",
+      "amount": 16000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_BEFORE"
+      ],
+      "used_ai": false,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-A05",
+      "type": "goods_purchase",
+      "amount": 17500.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_BEFORE"
+      ],
+      "used_ai": false,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-A06",
+      "type": "goods_purchase",
+      "amount": 19000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_BEFORE"
+      ],
+      "used_ai": false,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-A07",
+      "type": "goods_purchase",
+      "amount": 20500.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_BEFORE"
+      ],
+      "used_ai": false,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-A08",
+      "type": "goods_purchase",
+      "amount": 22000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_BEFORE"
+      ],
+      "used_ai": false,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-A09",
+      "type": "goods_purchase",
+      "amount": 23500.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_BEFORE"
+      ],
+      "used_ai": false,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-A10",
+      "type": "goods_purchase",
+      "amount": 25000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_BEFORE"
+      ],
+      "used_ai": false,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-A11",
+      "type": "goods_purchase",
+      "amount": 26500.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_BEFORE"
+      ],
+      "used_ai": false,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-A12",
+      "type": "goods_purchase",
+      "amount": 28000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_BEFORE"
+      ],
+      "used_ai": false,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-A13",
+      "type": "goods_purchase",
+      "amount": 29500.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_BEFORE"
+      ],
+      "used_ai": false,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-A14",
+      "type": "goods_purchase",
+      "amount": 31000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_BEFORE"
+      ],
+      "used_ai": false,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-A15",
+      "type": "goods_purchase",
+      "amount": 32500.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_BEFORE"
+      ],
+      "used_ai": false,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-B01",
+      "type": "goods_purchase",
+      "amount": 7000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_AFTER"
+      ],
+      "used_ai": false,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-B02",
+      "type": "goods_purchase",
+      "amount": 9000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_AFTER"
+      ],
+      "used_ai": false,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-B03",
+      "type": "goods_purchase",
+      "amount": 11000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_AFTER"
+      ],
+      "used_ai": false,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-B04",
+      "type": "goods_purchase",
+      "amount": 13000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_AFTER"
+      ],
+      "used_ai": false,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-B05",
+      "type": "goods_purchase",
+      "amount": 15000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_AFTER"
+      ],
+      "used_ai": false,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-B06",
+      "type": "goods_purchase",
+      "amount": 17000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_AFTER"
+      ],
+      "used_ai": false,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-B07",
+      "type": "goods_purchase",
+      "amount": 19000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_AFTER"
+      ],
+      "used_ai": false,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-B08",
+      "type": "goods_purchase",
+      "amount": 21000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_AFTER"
+      ],
+      "used_ai": false,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-B09",
+      "type": "goods_purchase",
+      "amount": 23000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_AFTER"
+      ],
+      "used_ai": false,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-B10",
+      "type": "goods_purchase",
+      "amount": 25000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_AFTER"
+      ],
+      "used_ai": false,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-B11",
+      "type": "goods_purchase",
+      "amount": 27000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_AFTER"
+      ],
+      "used_ai": false,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-B12",
+      "type": "goods_purchase",
+      "amount": 29000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_AFTER"
+      ],
+      "used_ai": false,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-B13",
+      "type": "goods_purchase",
+      "amount": 31000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_AFTER"
+      ],
+      "used_ai": false,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-B14",
+      "type": "goods_purchase",
+      "amount": 33000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_AFTER"
+      ],
+      "used_ai": false,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-B15",
+      "type": "goods_purchase",
+      "amount": 35000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "DETERMINISTIC_CLEAR_AFTER"
+      ],
+      "used_ai": false,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-C01",
+      "type": "goods_purchase",
+      "amount": 15000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "AMBIGUOUS_DATES_CROSS_CUTOFF"
+      ],
+      "used_ai": true,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 0.96,
+      "latency_ms": 2839
+    },
+    {
+      "transaction_id": "TXN-C02",
+      "type": "goods_purchase",
+      "amount": 18000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "AMBIGUOUS_DATES_CROSS_CUTOFF"
+      ],
+      "used_ai": true,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 0.96,
+      "latency_ms": 2425
+    },
+    {
+      "transaction_id": "TXN-C03",
+      "type": "goods_purchase",
+      "amount": 21000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "AMBIGUOUS_DATES_CROSS_CUTOFF"
+      ],
+      "used_ai": true,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 0.96,
+      "latency_ms": 2412
+    },
+    {
+      "transaction_id": "TXN-C04",
+      "type": "goods_purchase",
+      "amount": 24000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "AMBIGUOUS_DATES_CROSS_CUTOFF"
+      ],
+      "used_ai": true,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 0.96,
+      "latency_ms": 2278
+    },
+    {
+      "transaction_id": "TXN-C05",
+      "type": "goods_purchase",
+      "amount": 27000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "AMBIGUOUS_DATES_CROSS_CUTOFF"
+      ],
+      "used_ai": true,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 0.96,
+      "latency_ms": 2707
+    },
+    {
+      "transaction_id": "TXN-C06",
+      "type": "goods_purchase",
+      "amount": 30000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "AMBIGUOUS_DATES_CROSS_CUTOFF"
+      ],
+      "used_ai": true,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 0.96,
+      "latency_ms": 2310
+    },
+    {
+      "transaction_id": "TXN-C07",
+      "type": "goods_purchase",
+      "amount": 33000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "AMBIGUOUS_DATES_CROSS_CUTOFF"
+      ],
+      "used_ai": true,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 0.96,
+      "latency_ms": 2347
+    },
+    {
+      "transaction_id": "TXN-C08",
+      "type": "goods_purchase",
+      "amount": 36000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "AMBIGUOUS_DATES_CROSS_CUTOFF"
+      ],
+      "used_ai": true,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 0.96,
+      "latency_ms": 2628
+    },
+    {
+      "transaction_id": "TXN-C09",
+      "type": "goods_purchase",
+      "amount": 39000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "AMBIGUOUS_DATES_CROSS_CUTOFF"
+      ],
+      "used_ai": true,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 0.96,
+      "latency_ms": 2295
+    },
+    {
+      "transaction_id": "TXN-C10",
+      "type": "goods_purchase",
+      "amount": 42000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "AMBIGUOUS_DATES_CROSS_CUTOFF"
+      ],
+      "used_ai": true,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 0.96,
+      "latency_ms": 2491
+    },
+    {
+      "transaction_id": "TXN-D01",
+      "type": "goods_purchase",
+      "amount": 19000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "AMBIGUOUS_DATES_CROSS_CUTOFF"
+      ],
+      "used_ai": true,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2626
+    },
+    {
+      "transaction_id": "TXN-D02",
+      "type": "goods_purchase",
+      "amount": 23000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "AMBIGUOUS_DATES_CROSS_CUTOFF"
+      ],
+      "used_ai": true,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2398
+    },
+    {
+      "transaction_id": "TXN-D03",
+      "type": "goods_purchase",
+      "amount": 27000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "AMBIGUOUS_DATES_CROSS_CUTOFF"
+      ],
+      "used_ai": true,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 3112
+    },
+    {
+      "transaction_id": "TXN-D04",
+      "type": "goods_purchase",
+      "amount": 31000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "AMBIGUOUS_DATES_CROSS_CUTOFF"
+      ],
+      "used_ai": true,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2341
+    },
+    {
+      "transaction_id": "TXN-D05",
+      "type": "goods_purchase",
+      "amount": 35000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "AMBIGUOUS_DATES_CROSS_CUTOFF"
+      ],
+      "used_ai": true,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2489
+    },
+    {
+      "transaction_id": "TXN-D06",
+      "type": "goods_purchase",
+      "amount": 39000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "AMBIGUOUS_DATES_CROSS_CUTOFF"
+      ],
+      "used_ai": true,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2399
+    },
+    {
+      "transaction_id": "TXN-D07",
+      "type": "goods_purchase",
+      "amount": 43000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "AMBIGUOUS_DATES_CROSS_CUTOFF"
+      ],
+      "used_ai": true,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2453
+    },
+    {
+      "transaction_id": "TXN-D08",
+      "type": "goods_purchase",
+      "amount": 47000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "AMBIGUOUS_DATES_CROSS_CUTOFF"
+      ],
+      "used_ai": true,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2701
+    },
+    {
+      "transaction_id": "TXN-D09",
+      "type": "goods_purchase",
+      "amount": 51000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "AMBIGUOUS_DATES_CROSS_CUTOFF"
+      ],
+      "used_ai": true,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2076
+    },
+    {
+      "transaction_id": "TXN-D10",
+      "type": "goods_purchase",
+      "amount": 55000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "AMBIGUOUS_DATES_CROSS_CUTOFF"
+      ],
+      "used_ai": true,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2197
+    },
+    {
+      "transaction_id": "TXN-E01",
+      "type": "goods_purchase",
+      "amount": 25000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "MISSING_DELIVERY_EVIDENCE"
+      ],
+      "used_ai": true,
+      "ground_truth": "UNRESOLVED",
+      "prediction": "UNRESOLVED",
+      "correct": true,
+      "confidence": 0.45,
+      "latency_ms": 2219
+    },
+    {
+      "transaction_id": "TXN-E02",
+      "type": "goods_purchase",
+      "amount": 30000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "MISSING_DELIVERY_EVIDENCE"
+      ],
+      "used_ai": true,
+      "ground_truth": "UNRESOLVED",
+      "prediction": "UNRESOLVED",
+      "correct": true,
+      "confidence": 0.45,
+      "latency_ms": 2394
+    },
+    {
+      "transaction_id": "TXN-E03",
+      "type": "goods_purchase",
+      "amount": 35000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "MISSING_DELIVERY_EVIDENCE"
+      ],
+      "used_ai": true,
+      "ground_truth": "UNRESOLVED",
+      "prediction": "UNRESOLVED",
+      "correct": true,
+      "confidence": 0.45,
+      "latency_ms": 2419
+    },
+    {
+      "transaction_id": "TXN-E04",
+      "type": "goods_purchase",
+      "amount": 40000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "MISSING_DELIVERY_EVIDENCE"
+      ],
+      "used_ai": true,
+      "ground_truth": "UNRESOLVED",
+      "prediction": "UNRESOLVED",
+      "correct": true,
+      "confidence": 0.45,
+      "latency_ms": 2664
+    },
+    {
+      "transaction_id": "TXN-E05",
+      "type": "goods_purchase",
+      "amount": 45000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "MISSING_DELIVERY_EVIDENCE"
+      ],
+      "used_ai": true,
+      "ground_truth": "UNRESOLVED",
+      "prediction": "UNRESOLVED",
+      "correct": true,
+      "confidence": 0.45,
+      "latency_ms": 2208
+    },
+    {
+      "transaction_id": "TXN-F01",
+      "type": "goods_purchase",
+      "amount": 45000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "CONTRADICTORY_DATES_DETECTED"
+      ],
+      "used_ai": true,
+      "ground_truth": "POTENTIAL_MISSTATEMENT",
+      "prediction": "POTENTIAL_MISSTATEMENT",
+      "correct": true,
+      "confidence": 0.85,
+      "latency_ms": 1944
+    },
+    {
+      "transaction_id": "TXN-F02",
+      "type": "goods_purchase",
+      "amount": 55000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "CONTRADICTORY_DATES_DETECTED"
+      ],
+      "used_ai": true,
+      "ground_truth": "POTENTIAL_MISSTATEMENT",
+      "prediction": "POTENTIAL_MISSTATEMENT",
+      "correct": true,
+      "confidence": 0.85,
+      "latency_ms": 2067
+    },
+    {
+      "transaction_id": "TXN-F03",
+      "type": "goods_purchase",
+      "amount": 65000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "CONTRADICTORY_DATES_DETECTED"
+      ],
+      "used_ai": true,
+      "ground_truth": "POTENTIAL_MISSTATEMENT",
+      "prediction": "POTENTIAL_MISSTATEMENT",
+      "correct": true,
+      "confidence": 0.85,
+      "latency_ms": 2257
+    },
+    {
+      "transaction_id": "TXN-F04",
+      "type": "goods_purchase",
+      "amount": 75000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "CONTRADICTORY_DATES_DETECTED"
+      ],
+      "used_ai": true,
+      "ground_truth": "POTENTIAL_MISSTATEMENT",
+      "prediction": "POTENTIAL_MISSTATEMENT",
+      "correct": true,
+      "confidence": 0.85,
+      "latency_ms": 2796
+    },
+    {
+      "transaction_id": "TXN-F05",
+      "type": "goods_purchase",
+      "amount": 85000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "CONTRADICTORY_DATES_DETECTED"
+      ],
+      "used_ai": true,
+      "ground_truth": "POTENTIAL_MISSTATEMENT",
+      "prediction": "POTENTIAL_MISSTATEMENT",
+      "correct": true,
+      "confidence": 0.85,
+      "latency_ms": 2472
+    },
+    {
+      "transaction_id": "TXN-G01",
+      "type": "goods_purchase",
+      "amount": 9500.0,
+      "rules_triggered": [
+        "INVOICE_AMOUNT_MISMATCH"
+      ],
+      "used_ai": false,
+      "ground_truth": "DATA_QUALITY_EXCEPTION",
+      "prediction": "DATA_QUALITY_EXCEPTION",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 1
+    },
+    {
+      "transaction_id": "TXN-G02",
+      "type": "goods_purchase",
+      "amount": 11000.0,
+      "rules_triggered": [
+        "INVOICE_AMOUNT_MISMATCH"
+      ],
+      "used_ai": false,
+      "ground_truth": "DATA_QUALITY_EXCEPTION",
+      "prediction": "DATA_QUALITY_EXCEPTION",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-G03",
+      "type": "goods_purchase",
+      "amount": 12500.0,
+      "rules_triggered": [
+        "INVOICE_AMOUNT_MISMATCH"
+      ],
+      "used_ai": false,
+      "ground_truth": "DATA_QUALITY_EXCEPTION",
+      "prediction": "DATA_QUALITY_EXCEPTION",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-G04",
+      "type": "goods_purchase",
+      "amount": 14000.0,
+      "rules_triggered": [
+        "INVOICE_AMOUNT_MISMATCH"
+      ],
+      "used_ai": false,
+      "ground_truth": "DATA_QUALITY_EXCEPTION",
+      "prediction": "DATA_QUALITY_EXCEPTION",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-G05",
+      "type": "goods_purchase",
+      "amount": 15500.0,
+      "rules_triggered": [
+        "INVOICE_AMOUNT_MISMATCH"
+      ],
+      "used_ai": false,
+      "ground_truth": "DATA_QUALITY_EXCEPTION",
+      "prediction": "DATA_QUALITY_EXCEPTION",
+      "correct": true,
+      "confidence": 1.0,
+      "latency_ms": 0
+    },
+    {
+      "transaction_id": "TXN-H01",
+      "type": "service_purchase",
+      "amount": 20500.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "COMPLEX_TRANSACTION_TYPE"
+      ],
+      "used_ai": true,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2792
+    },
+    {
+      "transaction_id": "TXN-H02",
+      "type": "service_purchase",
+      "amount": 23000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "COMPLEX_TRANSACTION_TYPE"
+      ],
+      "used_ai": true,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2527
+    },
+    {
+      "transaction_id": "TXN-H03",
+      "type": "service_purchase",
+      "amount": 25500.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "COMPLEX_TRANSACTION_TYPE"
+      ],
+      "used_ai": true,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2834
+    },
+    {
+      "transaction_id": "TXN-H04",
+      "type": "service_purchase",
+      "amount": 28000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "COMPLEX_TRANSACTION_TYPE"
+      ],
+      "used_ai": true,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2344
+    },
+    {
+      "transaction_id": "TXN-H05",
+      "type": "service_purchase",
+      "amount": 30500.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "COMPLEX_TRANSACTION_TYPE"
+      ],
+      "used_ai": true,
+      "ground_truth": "BEFORE_CUTOFF",
+      "prediction": "BEFORE_CUTOFF",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2430
+    },
+    {
+      "transaction_id": "TXN-H06",
+      "type": "service_purchase",
+      "amount": 33000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "COMPLEX_TRANSACTION_TYPE"
+      ],
+      "used_ai": true,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2000
+    },
+    {
+      "transaction_id": "TXN-H07",
+      "type": "service_purchase",
+      "amount": 35500.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "COMPLEX_TRANSACTION_TYPE"
+      ],
+      "used_ai": true,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2381
+    },
+    {
+      "transaction_id": "TXN-H08",
+      "type": "service_purchase",
+      "amount": 38000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "COMPLEX_TRANSACTION_TYPE"
+      ],
+      "used_ai": true,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 1940
+    },
+    {
+      "transaction_id": "TXN-H09",
+      "type": "service_purchase",
+      "amount": 40500.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "COMPLEX_TRANSACTION_TYPE"
+      ],
+      "used_ai": true,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2143
+    },
+    {
+      "transaction_id": "TXN-H10",
+      "type": "service_purchase",
+      "amount": 43000.0,
+      "rules_triggered": [
+        "WITHIN_CUTOFF_WINDOW",
+        "COMPLEX_TRANSACTION_TYPE"
+      ],
+      "used_ai": true,
+      "ground_truth": "AFTER_CUTOFF",
+      "prediction": "AFTER_CUTOFF",
+      "correct": true,
+      "confidence": 0.95,
+      "latency_ms": 2167
+    }
+  ]
+}

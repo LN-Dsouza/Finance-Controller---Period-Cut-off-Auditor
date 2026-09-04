@@ -8,8 +8,8 @@ __pycache__/
 .env
 
 # Local database file
-backend/data/database.db
-data/
+
+
 
 # Frontend dependencies and builds
 frontend/node_modules/

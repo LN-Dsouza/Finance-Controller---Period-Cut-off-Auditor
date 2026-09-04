@@ -1,0 +1,377 @@
+{
+  "TXN-A01": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-28",
+    "reason": "Goods received on 2026-12-28, before cutoff of 2026-12-31."
+  },
+  "TXN-A02": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-28",
+    "reason": "Goods received on 2026-12-28, before cutoff of 2026-12-31."
+  },
+  "TXN-A03": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-28",
+    "reason": "Goods received on 2026-12-28, before cutoff of 2026-12-31."
+  },
+  "TXN-A04": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-28",
+    "reason": "Goods received on 2026-12-28, before cutoff of 2026-12-31."
+  },
+  "TXN-A05": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-28",
+    "reason": "Goods received on 2026-12-28, before cutoff of 2026-12-31."
+  },
+  "TXN-A06": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-28",
+    "reason": "Goods received on 2026-12-28, before cutoff of 2026-12-31."
+  },
+  "TXN-A07": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-28",
+    "reason": "Goods received on 2026-12-28, before cutoff of 2026-12-31."
+  },
+  "TXN-A08": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-28",
+    "reason": "Goods received on 2026-12-28, before cutoff of 2026-12-31."
+  },
+  "TXN-A09": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-28",
+    "reason": "Goods received on 2026-12-28, before cutoff of 2026-12-31."
+  },
+  "TXN-A10": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-28",
+    "reason": "Goods received on 2026-12-28, before cutoff of 2026-12-31."
+  },
+  "TXN-A11": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-28",
+    "reason": "Goods received on 2026-12-28, before cutoff of 2026-12-31."
+  },
+  "TXN-A12": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-28",
+    "reason": "Goods received on 2026-12-28, before cutoff of 2026-12-31."
+  },
+  "TXN-A13": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-28",
+    "reason": "Goods received on 2026-12-28, before cutoff of 2026-12-31."
+  },
+  "TXN-A14": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-28",
+    "reason": "Goods received on 2026-12-28, before cutoff of 2026-12-31."
+  },
+  "TXN-A15": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-28",
+    "reason": "Goods received on 2026-12-28, before cutoff of 2026-12-31."
+  },
+  "TXN-B01": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-04",
+    "reason": "Goods received on 2027-01-04, which is after cutoff of 2026-12-31."
+  },
+  "TXN-B02": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-04",
+    "reason": "Goods received on 2027-01-04, which is after cutoff of 2026-12-31."
+  },
+  "TXN-B03": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-04",
+    "reason": "Goods received on 2027-01-04, which is after cutoff of 2026-12-31."
+  },
+  "TXN-B04": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-04",
+    "reason": "Goods received on 2027-01-04, which is after cutoff of 2026-12-31."
+  },
+  "TXN-B05": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-04",
+    "reason": "Goods received on 2027-01-04, which is after cutoff of 2026-12-31."
+  },
+  "TXN-B06": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-04",
+    "reason": "Goods received on 2027-01-04, which is after cutoff of 2026-12-31."
+  },
+  "TXN-B07": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-04",
+    "reason": "Goods received on 2027-01-04, which is after cutoff of 2026-12-31."
+  },
+  "TXN-B08": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-04",
+    "reason": "Goods received on 2027-01-04, which is after cutoff of 2026-12-31."
+  },
+  "TXN-B09": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-04",
+    "reason": "Goods received on 2027-01-04, which is after cutoff of 2026-12-31."
+  },
+  "TXN-B10": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-04",
+    "reason": "Goods received on 2027-01-04, which is after cutoff of 2026-12-31."
+  },
+  "TXN-B11": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-04",
+    "reason": "Goods received on 2027-01-04, which is after cutoff of 2026-12-31."
+  },
+  "TXN-B12": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-04",
+    "reason": "Goods received on 2027-01-04, which is after cutoff of 2026-12-31."
+  },
+  "TXN-B13": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-04",
+    "reason": "Goods received on 2027-01-04, which is after cutoff of 2026-12-31."
+  },
+  "TXN-B14": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-04",
+    "reason": "Goods received on 2027-01-04, which is after cutoff of 2026-12-31."
+  },
+  "TXN-B15": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-04",
+    "reason": "Goods received on 2027-01-04, which is after cutoff of 2026-12-31."
+  },
+  "TXN-C01": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-29",
+    "reason": "Goods were physically received on 2026-12-29 (Dec 2026) prior to the cutoff, despite the invoice being dated 2027-01-03 and posted in January."
+  },
+  "TXN-C02": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-30",
+    "reason": "Goods were physically received on 2026-12-30 (Dec 2026) prior to the cutoff, despite the invoice being dated 2027-01-03 and posted in January."
+  },
+  "TXN-C03": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-28",
+    "reason": "Goods were physically received on 2026-12-28 (Dec 2026) prior to the cutoff, despite the invoice being dated 2027-01-03 and posted in January."
+  },
+  "TXN-C04": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-29",
+    "reason": "Goods were physically received on 2026-12-29 (Dec 2026) prior to the cutoff, despite the invoice being dated 2027-01-03 and posted in January."
+  },
+  "TXN-C05": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-30",
+    "reason": "Goods were physically received on 2026-12-30 (Dec 2026) prior to the cutoff, despite the invoice being dated 2027-01-03 and posted in January."
+  },
+  "TXN-C06": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-28",
+    "reason": "Goods were physically received on 2026-12-28 (Dec 2026) prior to the cutoff, despite the invoice being dated 2027-01-03 and posted in January."
+  },
+  "TXN-C07": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-29",
+    "reason": "Goods were physically received on 2026-12-29 (Dec 2026) prior to the cutoff, despite the invoice being dated 2027-01-03 and posted in January."
+  },
+  "TXN-C08": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-30",
+    "reason": "Goods were physically received on 2026-12-30 (Dec 2026) prior to the cutoff, despite the invoice being dated 2027-01-03 and posted in January."
+  },
+  "TXN-C09": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-28",
+    "reason": "Goods were physically received on 2026-12-28 (Dec 2026) prior to the cutoff, despite the invoice being dated 2027-01-03 and posted in January."
+  },
+  "TXN-C10": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-29",
+    "reason": "Goods were physically received on 2026-12-29 (Dec 2026) prior to the cutoff, despite the invoice being dated 2027-01-03 and posted in January."
+  },
+  "TXN-D01": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-03",
+    "reason": "Goods were delivered on 2027-01-03 (January 2027) which is after the cutoff date. The transaction was prematurely posted in December 2026 based on the early invoice date 2026-12-29."
+  },
+  "TXN-D02": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-04",
+    "reason": "Goods were delivered on 2027-01-04 (January 2027) which is after the cutoff date. The transaction was prematurely posted in December 2026 based on the early invoice date 2026-12-29."
+  },
+  "TXN-D03": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-02",
+    "reason": "Goods were delivered on 2027-01-02 (January 2027) which is after the cutoff date. The transaction was prematurely posted in December 2026 based on the early invoice date 2026-12-29."
+  },
+  "TXN-D04": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-03",
+    "reason": "Goods were delivered on 2027-01-03 (January 2027) which is after the cutoff date. The transaction was prematurely posted in December 2026 based on the early invoice date 2026-12-29."
+  },
+  "TXN-D05": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-04",
+    "reason": "Goods were delivered on 2027-01-04 (January 2027) which is after the cutoff date. The transaction was prematurely posted in December 2026 based on the early invoice date 2026-12-29."
+  },
+  "TXN-D06": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-02",
+    "reason": "Goods were delivered on 2027-01-02 (January 2027) which is after the cutoff date. The transaction was prematurely posted in December 2026 based on the early invoice date 2026-12-29."
+  },
+  "TXN-D07": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-03",
+    "reason": "Goods were delivered on 2027-01-03 (January 2027) which is after the cutoff date. The transaction was prematurely posted in December 2026 based on the early invoice date 2026-12-29."
+  },
+  "TXN-D08": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-04",
+    "reason": "Goods were delivered on 2027-01-04 (January 2027) which is after the cutoff date. The transaction was prematurely posted in December 2026 based on the early invoice date 2026-12-29."
+  },
+  "TXN-D09": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-02",
+    "reason": "Goods were delivered on 2027-01-02 (January 2027) which is after the cutoff date. The transaction was prematurely posted in December 2026 based on the early invoice date 2026-12-29."
+  },
+  "TXN-D10": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-03",
+    "reason": "Goods were delivered on 2027-01-03 (January 2027) which is after the cutoff date. The transaction was prematurely posted in December 2026 based on the early invoice date 2026-12-29."
+  },
+  "TXN-E01": {
+    "classification": "UNRESOLVED",
+    "economic_event_date": null,
+    "reason": "No Shipment or Goods Receipt record exists. It is impossible to determine when the physical delivery or transfer of control occurred."
+  },
+  "TXN-E02": {
+    "classification": "UNRESOLVED",
+    "economic_event_date": null,
+    "reason": "No Shipment or Goods Receipt record exists. It is impossible to determine when the physical delivery or transfer of control occurred."
+  },
+  "TXN-E03": {
+    "classification": "UNRESOLVED",
+    "economic_event_date": null,
+    "reason": "No Shipment or Goods Receipt record exists. It is impossible to determine when the physical delivery or transfer of control occurred."
+  },
+  "TXN-E04": {
+    "classification": "UNRESOLVED",
+    "economic_event_date": null,
+    "reason": "No Shipment or Goods Receipt record exists. It is impossible to determine when the physical delivery or transfer of control occurred."
+  },
+  "TXN-E05": {
+    "classification": "UNRESOLVED",
+    "economic_event_date": null,
+    "reason": "No Shipment or Goods Receipt record exists. It is impossible to determine when the physical delivery or transfer of control occurred."
+  },
+  "TXN-F01": {
+    "classification": "POTENTIAL_MISSTATEMENT",
+    "economic_event_date": "2027-01-03",
+    "reason": "There is a severe contradiction: internal Goods Receipt shows delivery on 2026-12-29, but DHL carrier tracking and vendor email confirm delivery occurred on 2027-01-03, after the cutoff."
+  },
+  "TXN-F02": {
+    "classification": "POTENTIAL_MISSTATEMENT",
+    "economic_event_date": "2027-01-03",
+    "reason": "There is a severe contradiction: internal Goods Receipt shows delivery on 2026-12-29, but DHL carrier tracking and vendor email confirm delivery occurred on 2027-01-03, after the cutoff."
+  },
+  "TXN-F03": {
+    "classification": "POTENTIAL_MISSTATEMENT",
+    "economic_event_date": "2027-01-03",
+    "reason": "There is a severe contradiction: internal Goods Receipt shows delivery on 2026-12-29, but DHL carrier tracking and vendor email confirm delivery occurred on 2027-01-03, after the cutoff."
+  },
+  "TXN-F04": {
+    "classification": "POTENTIAL_MISSTATEMENT",
+    "economic_event_date": "2027-01-03",
+    "reason": "There is a severe contradiction: internal Goods Receipt shows delivery on 2026-12-29, but DHL carrier tracking and vendor email confirm delivery occurred on 2027-01-03, after the cutoff."
+  },
+  "TXN-F05": {
+    "classification": "POTENTIAL_MISSTATEMENT",
+    "economic_event_date": "2027-01-03",
+    "reason": "There is a severe contradiction: internal Goods Receipt shows delivery on 2026-12-29, but DHL carrier tracking and vendor email confirm delivery occurred on 2027-01-03, after the cutoff."
+  },
+  "TXN-G01": {
+    "classification": "DATA_QUALITY_EXCEPTION",
+    "economic_event_date": null,
+    "reason": "Invoice amount (16625.0) does not reconcile with transaction amount (9500) \u2014 likely data entry error requiring correction before cutoff testing can proceed."
+  },
+  "TXN-G02": {
+    "classification": "DATA_QUALITY_EXCEPTION",
+    "economic_event_date": null,
+    "reason": "Invoice amount (19250.0) does not reconcile with transaction amount (11000) \u2014 likely data entry error requiring correction before cutoff testing can proceed."
+  },
+  "TXN-G03": {
+    "classification": "DATA_QUALITY_EXCEPTION",
+    "economic_event_date": null,
+    "reason": "Invoice amount (21875.0) does not reconcile with transaction amount (12500) \u2014 likely data entry error requiring correction before cutoff testing can proceed."
+  },
+  "TXN-G04": {
+    "classification": "DATA_QUALITY_EXCEPTION",
+    "economic_event_date": null,
+    "reason": "Invoice amount (24500.0) does not reconcile with transaction amount (14000) \u2014 likely data entry error requiring correction before cutoff testing can proceed."
+  },
+  "TXN-G05": {
+    "classification": "DATA_QUALITY_EXCEPTION",
+    "economic_event_date": null,
+    "reason": "Invoice amount (27125.0) does not reconcile with transaction amount (15500) \u2014 likely data entry error requiring correction before cutoff testing can proceed."
+  },
+  "TXN-H01": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-27",
+    "reason": "Service was fully completed on 2026-12-27 (Dec 2026), before the cutoff of 2026-12-31."
+  },
+  "TXN-H02": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-27",
+    "reason": "Service was fully completed on 2026-12-27 (Dec 2026), before the cutoff of 2026-12-31."
+  },
+  "TXN-H03": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-27",
+    "reason": "Service was fully completed on 2026-12-27 (Dec 2026), before the cutoff of 2026-12-31."
+  },
+  "TXN-H04": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-27",
+    "reason": "Service was fully completed on 2026-12-27 (Dec 2026), before the cutoff of 2026-12-31."
+  },
+  "TXN-H05": {
+    "classification": "BEFORE_CUTOFF",
+    "economic_event_date": "2026-12-27",
+    "reason": "Service was fully completed on 2026-12-27 (Dec 2026), before the cutoff of 2026-12-31."
+  },
+  "TXN-H06": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-05",
+    "reason": "Service was not completed until 2027-01-05 (Jan 2027), after the cutoff of 2026-12-31, despite early invoicing."
+  },
+  "TXN-H07": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-05",
+    "reason": "Service was not completed until 2027-01-05 (Jan 2027), after the cutoff of 2026-12-31, despite early invoicing."
+  },
+  "TXN-H08": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-05",
+    "reason": "Service was not completed until 2027-01-05 (Jan 2027), after the cutoff of 2026-12-31, despite early invoicing."
+  },
+  "TXN-H09": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-05",
+    "reason": "Service was not completed until 2027-01-05 (Jan 2027), after the cutoff of 2026-12-31, despite early invoicing."
+  },
+  "TXN-H10": {
+    "classification": "AFTER_CUTOFF",
+    "economic_event_date": "2027-01-05",
+    "reason": "Service was not completed until 2027-01-05 (Jan 2027), after the cutoff of 2026-12-31, despite early invoicing."
+  }
+}
