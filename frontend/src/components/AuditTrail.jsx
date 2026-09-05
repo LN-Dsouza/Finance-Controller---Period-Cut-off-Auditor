@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { classificationBadge, formatDate, formatLabel } from '../utils';
 
-const API_BASE = 'http://127.0.0.1:8000/api';
+const API_BASE = import.meta.env.VITE_API_BASE || 'http://127.0.0.1:8000/api';
 
 function AuditTrail({ onSelectTx }) {
   const [logs, setLogs] = useState([]);
