@@ -6,7 +6,7 @@ import ExceptionQueue from './components/ExceptionQueue';
 import AuditTrail from './components/AuditTrail';
 import Evaluation from './components/Evaluation';
 
-const API_BASE = 'http://127.0.0.1:8000/api';
+const API_BASE = import.meta.env.VITE_API_BASE || 'http://127.0.0.1:8000/api';
 
 function App() {
   const [activePage, setActivePage] = useState('dashboard');
