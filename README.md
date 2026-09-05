@@ -1,8 +1,7 @@
 # AI Finance Controller — Period-End Cut-Off Auditor
 
 ## Live Demo
-- **Backend**: [https://finance-controller-backend.onrender.com](https://finance-controller-backend.onrender.com)
-- **Frontend**: [https://finance-controller-frontend.onrender.com](https://finance-controller-frontend.onrender.com)
+- [https://finance-controller-frontend.onrender.com](https://finance-controller-frontend.onrender.com)
 
 ## 1. PROJECT IDENTITY
 
