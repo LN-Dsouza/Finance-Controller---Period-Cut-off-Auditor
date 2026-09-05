@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { classificationBadge, confidenceCaption, formatDate, formatLabel } from '../utils';
 
-const API_BASE = 'http://127.0.0.1:8000/api';
+const API_BASE = import.meta.env.VITE_API_BASE || 'http://127.0.0.1:8000/api';
 
 function listOf(value) {
   return Array.isArray(value) ? value : [];
